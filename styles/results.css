@@ -1,0 +1,34 @@
+#results-container {
+  margin-top: 7.4rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ecdcb0;
+}
+
+.result {
+  font-size: 3.8rem;
+  display: grid;
+  grid-template-columns: 10rem 60rem 10rem;
+}
+
+.result-1 {
+  background-color: rgba(255, 255, 255, 0.238);
+}
+
+.result-2 {
+  background-color: rgba(255, 255, 255, 0.103);
+}
+
+.result-number {
+  padding: 3rem 4rem;
+}
+
+.result-name {
+  padding: 3rem 4rem;
+}
+
+.result-score {
+  padding: 3rem 4rem;
+}

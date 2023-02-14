@@ -1,0 +1,41 @@
+#item-list {
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.item {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+}
+
+.item-name {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #7c7c74;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-right: 2rem;
+}
+
+.item-delete-button {
+  border: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0%;
+  transition: all 0.06s;
+}
+
+.item-delete-button:active {
+  color: #7c7c74;
+}
+
+.item:hover .item-delete-button {
+  opacity: 100%;
+}

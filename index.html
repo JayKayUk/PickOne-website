@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/item-list.css" />
+    <link rel="stylesheet" href="styles/compare.css" />
+    <link rel="stylesheet" href="styles/utilities.css" />
+    <link rel="stylesheet" href="styles/results.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Title -->
+    <title>Pick One</title>
+    <!-- Script -->
+    <script async src="scripts/main.js"></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <h1>Add items:</h1>
+      <input type="text" name="input" id="input" placeholder="..." />
+      <div id="button-container">
+        <button class="big-button" id="add-item-button">Add item</button>
+        <button class="big-button" id="compare-button">Compare</button>
+      </div>
+      <div id="item-list"></div>
+    </div>
+    <div id="compare-container">
+      <h1>Pick one</h1>
+      <div id="compare-button-container">
+        <button class="choice-button" id="choice-one" data-buttonId="0">
+          Itemsadfasdfasdfasd 1
+        </button>
+        <button class="choice-button" id="choice-two" data-buttonId="1">
+          Itemm 2
+        </button>
+      </div>
+      <p id="counter"></p>
+    </div>
+    <div id="results-container">
+      <h1>Results</h1>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #575752;
+  font-family: "Roboto", sans-serif;
+  padding-top: 7.4rem;
+  padding-bottom: 11rem;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease-out;
+}
+
+h1 {
+  font-size: 7.4rem;
+  font-weight: 600;
+  color: #ecdcb0;
+  margin-bottom: 1.25rem;
+}
+
+input {
+  width: 60rem;
+  font-size: 3.8rem;
+  color: #7c7c74;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 1.8rem;
+}
+
+#button-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.big-button {
+  font-size: 3rem;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.02s;
+}
+
+#add-item-button {
+  background-color: #5f874a;
+}
+
+#add-item-button:hover {
+  background-color: #50723c;
+}
+
+#add-item-button:active {
+  transform: scale(98%);
+}
+
+#compare-button {
+  background-color: #7286a0;
+}
+
+#compare-button:hover {
+  background-color: #5e6f86;
+}
+
+#compare-button:active {
+  transform: scale(98%);
+}
